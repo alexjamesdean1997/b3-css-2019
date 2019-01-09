@@ -1,0 +1,30 @@
+/* Background changes for 4 screen sizes */
+
+body {
+  background-color: #efefef;
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: #c3c3c3;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: #a3a3a5;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  body {
+    background-color: #919192;
+  }
+}
+
+/* section 1 */
+
+.section1 {
+  min-height: 400px;
+  background-image: url("../img/large/capucin.jpg");
+}
