@@ -25,6 +25,8 @@ body {
 /* section 1 */
 
 .section1 {
-  min-height: 400px;
+  min-height: 500px;
   background-image: url("../img/large/capucin.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
