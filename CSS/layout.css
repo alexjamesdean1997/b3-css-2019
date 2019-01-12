@@ -1,3 +1,51 @@
-h1 {
-  text-align: center;
+/* layout */
+
+img {
+  width: 100%;
+}
+
+/* section 2 */
+
+#section2 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1em;
+}
+
+/* section 3 */
+
+#section3 {
+  display: grid;
+  grid-template-columns: 80%;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.rows {
+  display: grid;
+  grid-template-columns: 3fr 4fr;
+  grid-gap: 1em;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.rows > div {
+  padding-left: 1em;
+}
+
+.rows > img {
+  margin-left: auto;
+}
+
+/* section 4 */
+
+#section4 {
+  width: 80%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
