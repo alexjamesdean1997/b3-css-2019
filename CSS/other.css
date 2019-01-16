@@ -1,43 +1,40 @@
 /* Background changes for 4 screen sizes */
 
 body {
-  background-color: #efefef;
+  background-color: lightblue;
 }
 
 @media screen and (min-width: 900px) {
   body {
-    background-color: #c3c3c3;
+    background-color: lightcoral;
   }
 }
 
 @media screen and (min-width: 1200px) {
   body {
-    background-color: #a3a3a5;
+    background-color: lightpink;
   }
 }
 
 @media screen and (min-width: 1400px) {
   body {
-    background-color: #919192;
+    background-color: lightgreen;
   }
 }
 
 /* section 1 */
 
 #section1 {
-  min-height: 500px;
+  min-height: 750px;
   background-image: url("../img/large/capucin.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*section 2 columns*/
-
-.columns {
-  border: 1px solid black;
-  background-color: rgba(255, 255, 255, 0.5);
-  padding: 1em;
-}
 
 /* section 5 */
 
